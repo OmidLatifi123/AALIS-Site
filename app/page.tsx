@@ -185,12 +185,22 @@ Autonomous Acoustic Lightweight Intelligence System              </p>
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-gray-800 py-8 px-4">
-        <div className="max-w-7xl mx-auto text-center text-gray-500">
-          <p className="mb-2">© 2025 AALIS - Autonomous Acoustic Lightweight Intelligent System</p>
-          <p className="text-sm">Defending Canada's Sovereignty | Securing Canada's Skies | Keeping Canadians Safe</p>
-        </div>
-      </footer>
+    <footer className="w-full py-4 border-t border-gray-800 text-center text-gray-400 text-sm mt-10">
+      <div className="flex items-center justify-center space-x-2">
+        <Github size={16} />
+        <a
+          href="https://github.com/IAMAMZ/aalice-drone-detection-knn-backend"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white transition"
+        >
+          View Backend on GitHub
+        </a>
+      </div>
+      <div className="mt-1 text-xs text-gray-500">
+        © {new Date().getFullYear()} AALIS
+      </div>
+    </footer>
     </div>
   );
 }
