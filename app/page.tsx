@@ -187,7 +187,6 @@ Autonomous Acoustic Lightweight Intelligence System              </p>
       {/* Footer */}
     <footer className="w-full py-4 border-t border-gray-800 text-center text-gray-400 text-sm mt-10">
       <div className="flex items-center justify-center space-x-2">
-        <Github size={16} />
         <a
           href="https://github.com/IAMAMZ/aalice-drone-detection-knn-backend"
           target="_blank"
