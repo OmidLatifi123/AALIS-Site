@@ -184,22 +184,24 @@ Autonomous Acoustic Lightweight Intelligence System              </p>
         </div>
       </section>
 
-      {/* Footer */}
-    <footer className="w-full py-4 border-t border-gray-800 text-center text-gray-400 text-sm mt-10">
-      <div className="flex items-center justify-center space-x-2">
-        <a
-          href="https://github.com/IAMAMZ/aalice-drone-detection-knn-backend"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-white transition"
-        >
-          View Backend on GitHub
-        </a>
-      </div>
-      <div className="mt-1 text-xs text-gray-500">
-        © {new Date().getFullYear()} AALIS
-      </div>
-    </footer>
+{/* Footer */}
+<footer className="w-full py-4 border-t border-gray-800 text-center text-gray-400 text-sm mt-10">
+  <div className="flex items-center justify-center space-x-2">
+    <a
+      href="https://github.com/IAMAMZ/aalice-drone-detection-knn-backend"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-white transition"
+    >
+      View Backend on GitHub
+    </a>
+  </div>
+
+  <div className="mt-1 text-xs text-gray-500">
+    © {new Date().getFullYear()} AALIS — by Omid Latifi, Miran Qarachatani, Pratik Das
+  </div>
+</footer>
+
     </div>
   );
 }
